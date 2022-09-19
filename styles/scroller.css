@@ -1,0 +1,42 @@
+#navbar{
+    position: absolute;
+    /* border: 1px solid black; */
+    height: 100%;
+    transition: 1s;
+}
+#scroller{
+    width:25px;
+    font-size: 2px;
+    position: relative;
+    top:10px;
+    left:10px;
+    height: fit-content;
+    
+}
+#scroller>div{
+    width:100%;
+    border-top: 1em solid black;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+#scroller:hover{
+    width:28px;
+    font-size: 3px;
+}
+#navbarDiv1{
+    /* border: 1px solid black; */
+    width:80%;
+    position:relative;
+    top:10px;
+    left:10px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+#navbarDiv1>select{
+    border: none;
+    width: 60%;
+    background-color: #48c9b0;
+}
